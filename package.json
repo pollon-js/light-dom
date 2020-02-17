@@ -1,0 +1,36 @@
+{
+  "name": "@pollon/light-dom",
+  "version": "1.0.0",
+  "description": "DOM utilities for the Pollon framework",
+  "main": "dist/pollon-light-dom.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollon-js/light-dom.git"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "dev:build": "rollup -c ./build/index.js",
+    "prepublish": "npm run dev:build"
+  },
+  "keywords": [
+    "pollon",
+    "framework",
+    "dom",
+    "utility"
+  ],
+  "author": "Francesco Lasaracina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pollon-js/light-dom/issues"
+  },
+  "homepage": "https://github.com/pollon-js/light-dom#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+  "dependencies": {}
+}
